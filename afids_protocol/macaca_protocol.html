@@ -1,0 +1,1417 @@
+
+
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+        <link rel="canonical" href="https://github.com/afids/afids-protocol/afids_protocol/macaca_protocol.html">
+      
+      
+      <link rel="shortcut icon" href="../img/favicon.png">
+      <meta name="generator" content="mkdocs-1.1.2, mkdocs-material-5.3.3">
+    
+    
+      
+        <title>Non-human Primate</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.545621a7.min.css">
+      
+        <link rel="stylesheet" href="../assets/stylesheets/palette.36d1b78f.min.css">
+      
+      
+        
+        
+        <meta name="theme-color" content="">
+      
+    
+    
+    
+      
+        <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700%7CRoboto+Mono&display=fallback">
+        <style>body,input{font-family:"Roboto",-apple-system,BlinkMacSystemFont,Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"Roboto Mono",SFMono-Regular,Consolas,Menlo,monospace}</style>
+      
+    
+    
+    
+      <link rel="stylesheet" href="../stylesheets/extra.css">
+    
+    
+      
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="" data-md-color-primary="black" data-md-color-accent="black">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#preparation" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+      <header class="md-header" data-md-component="header">
+  <nav class="md-header-nav md-grid" aria-label="Header">
+    <a href="https://github.com/afids/afids-protocol" title="AFIDS Project" class="md-header-nav__button md-logo" aria-label="AFIDS Project">
+      
+  <img src="../img/logo.svg" alt="logo">
+
+    </a>
+    <label class="md-header-nav__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2z"/></svg>
+    </label>
+    <div class="md-header-nav__title" data-md-component="header-title">
+      
+        <div class="md-header-nav__ellipsis">
+          <span class="md-header-nav__topic md-ellipsis">
+            AFIDS Project
+          </span>
+          <span class="md-header-nav__topic md-ellipsis">
+            
+              Non-human Primate
+            
+          </span>
+        </div>
+      
+    </div>
+    
+      <label class="md-header-nav__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0116 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 019.5 16 6.5 6.5 0 013 9.5 6.5 6.5 0 019.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+      </label>
+      
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" data-md-state="active">
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0116 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 019.5 16 6.5 6.5 0 013 9.5 6.5 6.5 0 019.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+      </label>
+      <button type="reset" class="md-search__icon md-icon" aria-label="Clear" data-md-component="search-reset" tabindex="-1">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"/></svg>
+      </button>
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header-nav__source">
+        
+<a href="https://github.com/afids/" title="Go to repository" class="md-source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M439.55 236.05L244 40.45a28.87 28.87 0 00-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 01-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 000 40.81l195.61 195.6a28.86 28.86 0 0040.8 0l194.69-194.69a28.86 28.86 0 000-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    AFIDs on Github
+  </div>
+</a>
+      </div>
+    
+  </nav>
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+        
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              <div class="md-sidebar md-sidebar--primary" data-md-component="navigation">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    <nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="https://github.com/afids/afids-protocol" title="AFIDS Project" class="md-nav__button md-logo" aria-label="AFIDS Project">
+      
+  <img src="../img/logo.svg" alt="logo">
+
+    </a>
+    AFIDS Project
+  </label>
+  
+    <div class="md-nav__source">
+      
+<a href="https://github.com/afids/" title="Go to repository" class="md-source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M439.55 236.05L244 40.45a28.87 28.87 0 00-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 01-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 000 40.81l195.61 195.6a28.86 28.86 0 0040.8 0l194.69-194.69a28.86 28.86 0 000-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    AFIDs on Github
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../index.html" title="Home" class="md-nav__link">
+      Home
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-2" type="checkbox" id="nav-2">
+    
+    <label class="md-nav__link" for="nav-2">
+      Working In 3D Slicer
+      <span class="md-nav__icon md-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M8.59 16.58L13.17 12 8.59 7.41 10 6l6 6-6 6-1.41-1.42z"/></svg>
+      </span>
+    </label>
+    <nav class="md-nav" aria-label="Working In 3D Slicer" data-md-level="1">
+      <label class="md-nav__title" for="nav-2">
+        <span class="md-nav__icon md-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+        </span>
+        Working In 3D Slicer
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../3d_slicer/linear_transforms.html" title="Linear Transforms" class="md-nav__link">
+      Linear Transforms
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../3d_slicer/saving_slicer_scenes.html" title="Saving Slicer Scenes" class="md-nav__link">
+      Saving Slicer Scenes
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-3" type="checkbox" id="nav-3" checked>
+    
+    <label class="md-nav__link" for="nav-3">
+      The Protocol
+      <span class="md-nav__icon md-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M8.59 16.58L13.17 12 8.59 7.41 10 6l6 6-6 6-1.41-1.42z"/></svg>
+      </span>
+    </label>
+    <nav class="md-nav" aria-label="The Protocol" data-md-level="1">
+      <label class="md-nav__title" for="nav-3">
+        <span class="md-nav__icon md-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+        </span>
+        The Protocol
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="preparation.html" title="Preparation" class="md-nav__link">
+      Preparation
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="human_protocol.html" title="Human" class="md-nav__link">
+      Human
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+    
+    
+      <label class="md-nav__link md-nav__link--active" for="__toc">
+        Macaca
+        <span class="md-nav__icon md-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 9h14V7H3v2m0 4h14v-2H3v2m0 4h14v-2H3v2m16 0h2v-2h-2v2m0-10v2h2V7h-2m0 6h2v-2h-2v2z"/></svg>
+        </span>
+      </label>
+    
+    <a href="macaca_protocol.html" title="Macaca" class="md-nav__link md-nav__link--active">
+      Macaca
+    </a>
+    
+      
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+      </span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#preparation" class="md-nav__link">
+    Preparation
+  </a>
+  
+    <nav class="md-nav" aria-label="Preparation">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#3d-slicer" class="md-nav__link">
+    3D Slicer
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#image-templates" class="md-nav__link">
+    Image Templates
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#anatomical-direction-guide" class="md-nav__link">
+    Anatomical Direction Guide
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#fiducials" class="md-nav__link">
+    Fiducials
+  </a>
+  
+    <nav class="md-nav" aria-label="Fiducials">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-ac-midline" class="md-nav__link">
+    1. AC [midline]
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-pc-midline" class="md-nav__link">
+    2. PC [midline]
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-infracollicular-sulcus-midline" class="md-nav__link">
+    3. infracollicular sulcus [midline]
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4-pontomesencephalic-junction-midline" class="md-nav__link">
+    4. Pontomesencephalic junction [midline]
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#5-superior-interpeduncular-fossa-midline" class="md-nav__link">
+    5. Superior interpeduncular fossa [midline]
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#6-right-superior-lateral-mesencephalic-sulcus" class="md-nav__link">
+    6. Right superior lateral mesencephalic sulcus
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#7-left-superior-lateral-mesencephalic-sulcus" class="md-nav__link">
+    7. Left superior lateral mesencephalic sulcus
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#8-right-inferior-lateral-mesencephalic-sulcus" class="md-nav__link">
+    8. Right inferior lateral mesencephalic sulcus
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#9-left-inferior-lateral-mesencephalic-sulcus" class="md-nav__link">
+    9. Left inferior lateral mesencephalic sulcus
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#10-culmen-midline" class="md-nav__link">
+    10. Culmen [midline]
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#11-intermammillary-sulcus-midline" class="md-nav__link">
+    11. Intermammillary sulcus [midline]
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#12-right-mammillary-body" class="md-nav__link">
+    12. Right mammillary body
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#13-left-mamillary-body" class="md-nav__link">
+    13. Left mamillary body
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#14-pineal-gland-midline" class="md-nav__link">
+    14. Pineal gland [midline]
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#15-right-lateral-aspect-of-frontal-horn-at-ac" class="md-nav__link">
+    15. Right lateral aspect of frontal horn at AC
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#16-left-lateral-aspect-of-frontal-horn-at-ac" class="md-nav__link">
+    16. Left lateral aspect of frontal horn at AC
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#17-right-lateral-aspect-of-frontal-horn-at-pc" class="md-nav__link">
+    17. Right lateral aspect of frontal horn at PC
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#18-left-lateral-aspect-of-frontal-horn-at-pc" class="md-nav__link">
+    18. Left lateral aspect of frontal horn at PC
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#19-genu-of-corpus-callosum-midline" class="md-nav__link">
+    19. Genu of corpus callosum [midline]
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#20-splenium-of-the-corpus-callosum-midline" class="md-nav__link">
+    20. Splenium of the corpus callosum [midline]
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#21-right-anterolateral-temporal-horn" class="md-nav__link">
+    21. Right anterolateral temporal horn
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#22-left-anterolateral-temporal-horn" class="md-nav__link">
+    22. Left anterolateral temporal horn
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#23-right-superior-am-temporal-horn" class="md-nav__link">
+    23. Right superior AM temporal horn
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#24-left-superior-am-temporal-horn" class="md-nav__link">
+    24. Left superior AM temporal horn
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#25-right-inferior-am-temporal-horn" class="md-nav__link">
+    25. Right inferior AM temporal horn
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#26-left-inferior-am-temporal-horn" class="md-nav__link">
+    26. Left inferior AM temporal horn
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#27-right-indusium-griseum-origin" class="md-nav__link">
+    27. Right indusium griseum origin
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#28-left-indusium-griseum-origin" class="md-nav__link">
+    28. Left indusium griseum origin
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#29-right-ventral-occipital-horn" class="md-nav__link">
+    29. Right ventral occipital horn
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#30-left-ventral-occipital-horn" class="md-nav__link">
+    30. Left ventral occipital horn
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#31-right-olfactory-sulcal-fundus" class="md-nav__link">
+    31. Right olfactory sulcal fundus
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#32-left-olfactory-sulcal-fundus" class="md-nav__link">
+    32. Left olfactory sulcal fundus
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+    
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../references.html" title="References" class="md-nav__link">
+      References
+    </a>
+  </li>
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+      </span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#preparation" class="md-nav__link">
+    Preparation
+  </a>
+  
+    <nav class="md-nav" aria-label="Preparation">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#3d-slicer" class="md-nav__link">
+    3D Slicer
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#image-templates" class="md-nav__link">
+    Image Templates
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#anatomical-direction-guide" class="md-nav__link">
+    Anatomical Direction Guide
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#fiducials" class="md-nav__link">
+    Fiducials
+  </a>
+  
+    <nav class="md-nav" aria-label="Fiducials">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-ac-midline" class="md-nav__link">
+    1. AC [midline]
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-pc-midline" class="md-nav__link">
+    2. PC [midline]
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-infracollicular-sulcus-midline" class="md-nav__link">
+    3. infracollicular sulcus [midline]
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4-pontomesencephalic-junction-midline" class="md-nav__link">
+    4. Pontomesencephalic junction [midline]
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#5-superior-interpeduncular-fossa-midline" class="md-nav__link">
+    5. Superior interpeduncular fossa [midline]
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#6-right-superior-lateral-mesencephalic-sulcus" class="md-nav__link">
+    6. Right superior lateral mesencephalic sulcus
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#7-left-superior-lateral-mesencephalic-sulcus" class="md-nav__link">
+    7. Left superior lateral mesencephalic sulcus
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#8-right-inferior-lateral-mesencephalic-sulcus" class="md-nav__link">
+    8. Right inferior lateral mesencephalic sulcus
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#9-left-inferior-lateral-mesencephalic-sulcus" class="md-nav__link">
+    9. Left inferior lateral mesencephalic sulcus
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#10-culmen-midline" class="md-nav__link">
+    10. Culmen [midline]
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#11-intermammillary-sulcus-midline" class="md-nav__link">
+    11. Intermammillary sulcus [midline]
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#12-right-mammillary-body" class="md-nav__link">
+    12. Right mammillary body
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#13-left-mamillary-body" class="md-nav__link">
+    13. Left mamillary body
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#14-pineal-gland-midline" class="md-nav__link">
+    14. Pineal gland [midline]
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#15-right-lateral-aspect-of-frontal-horn-at-ac" class="md-nav__link">
+    15. Right lateral aspect of frontal horn at AC
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#16-left-lateral-aspect-of-frontal-horn-at-ac" class="md-nav__link">
+    16. Left lateral aspect of frontal horn at AC
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#17-right-lateral-aspect-of-frontal-horn-at-pc" class="md-nav__link">
+    17. Right lateral aspect of frontal horn at PC
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#18-left-lateral-aspect-of-frontal-horn-at-pc" class="md-nav__link">
+    18. Left lateral aspect of frontal horn at PC
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#19-genu-of-corpus-callosum-midline" class="md-nav__link">
+    19. Genu of corpus callosum [midline]
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#20-splenium-of-the-corpus-callosum-midline" class="md-nav__link">
+    20. Splenium of the corpus callosum [midline]
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#21-right-anterolateral-temporal-horn" class="md-nav__link">
+    21. Right anterolateral temporal horn
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#22-left-anterolateral-temporal-horn" class="md-nav__link">
+    22. Left anterolateral temporal horn
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#23-right-superior-am-temporal-horn" class="md-nav__link">
+    23. Right superior AM temporal horn
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#24-left-superior-am-temporal-horn" class="md-nav__link">
+    24. Left superior AM temporal horn
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#25-right-inferior-am-temporal-horn" class="md-nav__link">
+    25. Right inferior AM temporal horn
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#26-left-inferior-am-temporal-horn" class="md-nav__link">
+    26. Left inferior AM temporal horn
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#27-right-indusium-griseum-origin" class="md-nav__link">
+    27. Right indusium griseum origin
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#28-left-indusium-griseum-origin" class="md-nav__link">
+    28. Left indusium griseum origin
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#29-right-ventral-occipital-horn" class="md-nav__link">
+    29. Right ventral occipital horn
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#30-left-ventral-occipital-horn" class="md-nav__link">
+    30. Left ventral occipital horn
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#31-right-olfactory-sulcal-fundus" class="md-nav__link">
+    31. Right olfactory sulcal fundus
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#32-left-olfactory-sulcal-fundus" class="md-nav__link">
+    32. Left olfactory sulcal fundus
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content">
+            <article class="md-content__inner md-typeset">
+              
+  
+    <a href="https://github.com/afids/afids-protocol/blob/master/content/docs/afids_protocol/macaca_protocol.md" title="Edit this page" class="md-content__button md-icon" target="blank_" style="font-size: 14px;">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25z"/></svg> <p style="margin-top:2px;">Edit this page</p>
+    </a>
+    <a href="https://github.com/afids/afids-protocol/issues/new/choose" title="Open an issue" class="md-content__button md-icon" target="blank_" style="font-size: 14px;">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg> <p style="margin-top:2px;">Open and issue</p>
+    </a>
+  
+  
+    
+  
+  
+    <h1>Macaca</h1>
+  
+  <div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p><strong>Prior to placing the fiducials, ensure you have run the <a href="/docs/linear_transforms/">Linear Transform</a>.</strong></p>
+</div>
+<h2 id="preparation">Preparation<a class="headerlink" href="#preparation" title="Permanent link">&para;</a></h2>
+<h3 id="3d-slicer">3D Slicer<a class="headerlink" href="#3d-slicer" title="Permanent link">&para;</a></h3>
+<p>Download and use <a href="https://download.slicer.org/" target="_blank">3D Slicer 4.10.2</a> (for the time being <strong>DO NOT</strong> use version 4.11 or above)</p>
+<h3 id="image-templates">Image Templates<a class="headerlink" href="#image-templates" title="Permanent link">&para;</a></h3>
+<p>Download template files:</p>
+<p><center></p>
+<table>
+<thead>
+<tr>
+<th>file</th>
+<th>name</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://drive.google.com/open?id=1xPdnV58G0Z29bEOtF08feUdor0OSIvIa" target="_blank">D99.nii.gz</a></td>
+<td>d99</td>
+</tr>
+<tr>
+<td><a href="https://drive.google.com/open?id=1CNNX3oGjoP8P8kkPg8Lq2oyFpRlx20L3" target="_blank">inia19.nii.gz</a></td>
+<td>inia19</td>
+</tr>
+<tr>
+<td><a href="https://drive.google.com/open?id=1ps1xoz3eTfzA28mIKPPcDBZ6ZEbZkH9i" target="_blank">macaqueMNI.nii.gz</a></td>
+<td>macaqueMNI</td>
+</tr>
+<tr>
+<td><a href="https://drive.google.com/open?id=1PMu_8sbMpjk9D6Duf9zt_2FL1NBql1qE" target="_blank">NMTv1.3.nii.gz</a></td>
+<td>nmtv1.3</td>
+</tr>
+<tr>
+<td><a href="https://drive.google.com/open?id=1gqmxoh2k13QTfMXn2wsgsqEXPutyFRQv" target="_blank">yerkes19.nii.gz</a></td>
+<td>yerkes19</td>
+</tr>
+<tr>
+<td><img width=200/></td>
+<td><img width=200/></td>
+</tr>
+</tbody>
+</table>
+<p></center></p>
+<h2 id="anatomical-direction-guide">Anatomical Direction Guide<a class="headerlink" href="#anatomical-direction-guide" title="Permanent link">&para;</a></h2>
+<p align="center"><img src="../img/nhp/anatomical_directions_nhp.png" alt="anatomical_directions"/></p>
+
+<h2 id="fiducials">Fiducials<a class="headerlink" href="#fiducials" title="Permanent link">&para;</a></h2>
+<h3 id="1-ac-midline">1. AC [midline]<a class="headerlink" href="#1-ac-midline" title="Permanent link">&para;</a></h3>
+<p><strong>Name:</strong> 1 <br>
+<strong>Description:</strong> AC <br>
+<strong>Acronym:</strong> AC</p>
+<ul>
+<li>Place at the center of the commissure. </li>
+</ul>
+<p><a href="../img/nhp/01_AC.png" target="_blank"><img alt="" src="../img/nhp/01_AC.png" /></a></p>
+<h3 id="2-pc-midline">2. PC [midline]<a class="headerlink" href="#2-pc-midline" title="Permanent link">&para;</a></h3>
+<p><strong>Name:</strong> 2 <br>
+<strong>Description:</strong> PC <br>
+<strong>Acronym:</strong> PC</p>
+<ul>
+<li>Place at the center of the commissure</li>
+</ul>
+<p><a href="../img/nhp/02_PC.png" target="_blank"><img alt="" src="../img/nhp/02_PC.png" /></a></p>
+<h3 id="3-infracollicular-sulcus-midline">3. infracollicular sulcus [midline]<a class="headerlink" href="#3-infracollicular-sulcus-midline" title="Permanent link">&para;</a></h3>
+<p><strong>Name:</strong> 3 <br>
+<strong>Description:</strong> infracollicular sulcus <br>
+<strong>Acronym:</strong> ICS</p>
+<ul>
+<li>Inferior part of sulcus of inferior colliculi at the midline junction of inferior colliculi</li>
+<li>Inferior most boundary of longitudinal (rostral-caudal) intercollicular sulcus</li>
+</ul>
+<p><a href="../img/nhp/03_ICS.png" target="_blank"><img alt="" src="../img/nhp/03_ICS.png" /></a></p>
+<h3 id="4-pontomesencephalic-junction-midline">4. Pontomesencephalic junction [midline]<a class="headerlink" href="#4-pontomesencephalic-junction-midline" title="Permanent link">&para;</a></h3>
+<p><strong>Name:</strong> 4 <br>
+<strong>Description:</strong> PMJ <br>
+<strong>Acronym:</strong> PMJ</p>
+<ul>
+<li>At the intraventricular junction but because the junction tapers off gradually, choose the ventral/inferior/pontine side of the junction. Using the sagittal view, find the junction at midline, next verify that you are at the junction by checking the axial view.</li>
+</ul>
+<p><a href="../img/nhp/04_PMJ.png" target="_blank"><img alt="" src="../img/nhp/04_PMJ.png" /></a></p>
+<h3 id="5-superior-interpeduncular-fossa-midline">5. Superior interpeduncular fossa [midline]<a class="headerlink" href="#5-superior-interpeduncular-fossa-midline" title="Permanent link">&para;</a></h3>
+<p><strong>Name:</strong> 5 <br>
+<strong>Description:</strong> superior interpeduncular fossa <br>
+<strong>Acronym:</strong> SIPF</p>
+<ul>
+<li>Most superior axial slice showing the interpeduncular fossa</li>
+<li>Use coronal slice to help optimize location at boundary of 3<sup>rd</sup> ventricle and surrounding brain</li>
+<li>Commentary: useful fiducial location for deep brain stimulation (DBS) since subthalamic nucleus close by</li>
+</ul>
+<p><a href="../img/nhp/05_SIPF.png" target="_blank"><img alt="" src="../img/nhp/05_SIPF.png" /></a></p>
+<h3 id="6-right-superior-lateral-mesencephalic-sulcus">6. Right superior lateral mesencephalic sulcus<a class="headerlink" href="#6-right-superior-lateral-mesencephalic-sulcus" title="Permanent link">&para;</a></h3>
+<p><strong>Name:</strong> 6 <br>
+<strong>Description:</strong> R superior LMS <br>
+<strong>Acronym:</strong> RSLMS</p>
+<ul>
+<li>The lateral mesencephalic sulcus runs superior-to-inferior along the midbrain bilaterally. The following 4 points provide superior and inferior bounds of this sulcus superiorly and inferiorly.</li>
+<li>Localize using axial slices close to the location of the superior interpeduncular fossa (5) at the boundary of CSF and brain.</li>
+<li>Use the coronal and sagittal views to optimize the location so that the point at the depth of this sulcus is best approximated. Note: In NHP, the superior LMS is just inferior and medial to the capsule of the medial geniculate nucleus.</li>
+</ul>
+<p><a href="../img/nhp/06_RSLMS.png" target="_blank"><img alt="" src="../img/nhp/06_RSLMS.png" /></a></p>
+<h3 id="7-left-superior-lateral-mesencephalic-sulcus">7. Left superior lateral mesencephalic sulcus<a class="headerlink" href="#7-left-superior-lateral-mesencephalic-sulcus" title="Permanent link">&para;</a></h3>
+<p><strong>Name:</strong> 7 <br>
+<strong>Description:</strong> L superior LMS <br>
+<strong>Acronym:</strong> LSLMS</p>
+<ul>
+<li>As in 6</li>
+</ul>
+<p><a href="../img/nhp/07_LSLMS.png" target="_blank"><img alt="" src="../img/nhp/07_LSLMS.png" /></a></p>
+<h3 id="8-right-inferior-lateral-mesencephalic-sulcus">8. Right inferior lateral mesencephalic sulcus<a class="headerlink" href="#8-right-inferior-lateral-mesencephalic-sulcus" title="Permanent link">&para;</a></h3>
+<p><strong>Name:</strong> 8 <br>
+<strong>Description:</strong> R inferior LMS <br>
+<strong>Acronym:</strong> RILMS</p>
+<ul>
+<li>Using the axial view, level the slice intersection to the Pontomesencephalic Junction (4<sup>th</sup> fiducial) as a starting point</li>
+<li>Localize at junction between midbrain and pons using the axial slices</li>
+<li>Refine positioning using sagittal view (at the change in angle of brainstem at the PMJ)</li>
+<li>Note: The inferior LMS should be continuous with the superior LMS when scrolling through the axial images since they are part of the same sulcus.</li>
+</ul>
+<p><a href="../img/nhp/08_RILMS.png" target="_blank"><img alt="" src="../img/nhp/08_RILMS.png" /></a></p>
+<h3 id="9-left-inferior-lateral-mesencephalic-sulcus">9. Left inferior lateral mesencephalic sulcus<a class="headerlink" href="#9-left-inferior-lateral-mesencephalic-sulcus" title="Permanent link">&para;</a></h3>
+<p><strong>Name:</strong> 9 <br>
+<strong>Description:</strong> L inferior LMS <br>
+<strong>Acronym:</strong> LILMS</p>
+<ul>
+<li>As in 8</li>
+</ul>
+<p><a href="../img/nhp/09_LILMS.png" target="_blank"><img alt="" src="../img/nhp/09_LILMS.png" /></a></p>
+<h3 id="10-culmen-midline">10. Culmen [midline]<a class="headerlink" href="#10-culmen-midline" title="Permanent link">&para;</a></h3>
+<p><strong>Name:</strong> 10 <br>
+<strong>Description:</strong> culmen <br>
+<strong>Acronym:</strong> CUL</p>
+<ul>
+<li>Jump to AC or another midline AFID to get to the mid-sagittal slice, then place using the sagittal view</li>
+<li>Most superior point of cerebellar vermis (one of the vermian lobules)</li>
+<li>Axial view will allow you to choose the most superior part of the vermis; Scroll through this view while remaining in midline until you reach the apex. </li>
+</ul>
+<p><a href="../img/nhp/10_CUL.png" target="_blank"><img alt="" src="../img/nhp/10_CUL.png" /></a></p>
+<h3 id="11-intermammillary-sulcus-midline">11. Intermammillary sulcus [midline]<a class="headerlink" href="#11-intermammillary-sulcus-midline" title="Permanent link">&para;</a></h3>
+<p><strong>Name:</strong> 11 <br>
+<strong>Description:</strong> intermammillary sulcus <br>
+<strong>Acronym:</strong> IMS</p>
+<ul>
+<li>Click to jump to AC landmark and place using the sagittal view </li>
+<li>Using the coronal view get to the midpoint between the mamillary bodies. </li>
+<li>Remember to place at the border of the grey matter. Refine this using axial view where border is most clear.</li>
+</ul>
+<p><a href="../img/nhp/11_IMS.png" target="_blank"><img alt="" src="../img/nhp/11_IMS.png" /></a></p>
+<h3 id="12-right-mammillary-body">12. Right mammillary body<a class="headerlink" href="#12-right-mammillary-body" title="Permanent link">&para;</a></h3>
+<p><strong>Name:</strong> 12 <br>
+<strong>Description:</strong> R MB <br>
+<strong>Acronym:</strong> RMB</p>
+<ul>
+<li>Place at the center of the mammillary body</li>
+</ul>
+<p><a href="../img/nhp/12_RMB.png" target="_blank"><img alt="" src="../img/nhp/12_RMB.png" /></a></p>
+<h3 id="13-left-mamillary-body">13. Left mamillary body<a class="headerlink" href="#13-left-mamillary-body" title="Permanent link">&para;</a></h3>
+<p><strong>Name:</strong> 13 <br>
+<strong>Description:</strong> L MB <br>
+<strong>Acronym:</strong> LMB</p>
+<ul>
+<li>As in 12</li>
+</ul>
+<p><a href="../img/nhp/13_LMB.png" target="_blank"><img alt="" src="../img/nhp/13_LMB.png" /></a></p>
+<h3 id="14-pineal-gland-midline">14. Pineal gland [midline]<a class="headerlink" href="#14-pineal-gland-midline" title="Permanent link">&para;</a></h3>
+<p><strong>Name:</strong> 14 <br>
+<strong>Description:</strong> pineal gland <br>
+<strong>Acronym:</strong> PG</p>
+<ul>
+<li>Click to jump to the AC landmark on the sagittal view and localize the most superior border of AC on sagittal view, then proceed to go posterior until past PC.</li>
+<li>Place AFID in the middle of gland (use all views to correctly place this point). This can be challenging if the pineal gland is elongated, but approximate the middle as best possible.</li>
+<li>Occasionally the pineal gland is calcified, which makes it more difficult to find the center of the gland. Be sure to scroll back and forth in all views to find the true center point regardless of asymmetry of calcifications</li>
+</ul>
+<p><a href="../img/nhp/14_PG.png" target="_blank"><img alt="" src="../img/nhp/14_PG.png" /></a></p>
+<h3 id="15-right-lateral-aspect-of-frontal-horn-at-ac">15. Right lateral aspect of frontal horn at AC<a class="headerlink" href="#15-right-lateral-aspect-of-frontal-horn-at-ac" title="Permanent link">&para;</a></h3>
+<p><strong>Name:</strong> 15 <br>
+<strong>Description:</strong> R LV at AC <br>
+<strong>Acronym:</strong> RLVAC</p>
+<ul>
+<li>Defined at same coronal slice as AC (jump to it)</li>
+</ul>
+<p><a href="../img/nhp/15_RLVAC.png" target="_blank"><img alt="" src="../img/nhp/15_RLVAC.png" /></a></p>
+<h3 id="16-left-lateral-aspect-of-frontal-horn-at-ac">16. Left lateral aspect of frontal horn at AC<a class="headerlink" href="#16-left-lateral-aspect-of-frontal-horn-at-ac" title="Permanent link">&para;</a></h3>
+<p><strong>Name:</strong> 16 <br>
+<strong>Description:</strong> L LV at AC <br>
+<strong>Acronym:</strong> LLVAC</p>
+<ul>
+<li>As in 15</li>
+</ul>
+<p><a href="../img/nhp/16_LLVAC.png" target="_blank"><img alt="" src="../img/nhp/16_LLVAC.png" /></a></p>
+<h3 id="17-right-lateral-aspect-of-frontal-horn-at-pc">17. Right lateral aspect of frontal horn at PC<a class="headerlink" href="#17-right-lateral-aspect-of-frontal-horn-at-pc" title="Permanent link">&para;</a></h3>
+<p><strong>Name:</strong> 17 <br>
+<strong>Description:</strong> R LV at PC <br>
+<strong>Acronym:</strong> RLVPC</p>
+<ul>
+<li>Defined at same coronal slice as PC (jump to it)</li>
+<li>The ventricle is often curved so choose a location that is maximally superior and lateral.</li>
+</ul>
+<p><a href="../img/nhp/17_RLVPC.png" target="_blank"><img alt="" src="../img/nhp/17_RLVPC.png" /></a></p>
+<h3 id="18-left-lateral-aspect-of-frontal-horn-at-pc">18. Left lateral aspect of frontal horn at PC<a class="headerlink" href="#18-left-lateral-aspect-of-frontal-horn-at-pc" title="Permanent link">&para;</a></h3>
+<p><strong>Name:</strong> 18 <br>
+<strong>Description:</strong> L LV at PC <br>
+<strong>Acronym:</strong> LLVPC</p>
+<ul>
+<li>As in 17</li>
+</ul>
+<p><a href="../img/nhp/18_LLVPC.png" target="_blank"><img alt="" src="../img/nhp/18_LLVPC.png" /></a></p>
+<h3 id="19-genu-of-corpus-callosum-midline">19. Genu of corpus callosum [midline]<a class="headerlink" href="#19-genu-of-corpus-callosum-midline" title="Permanent link">&para;</a></h3>
+<p><strong>Name:</strong> 19 <br>
+<strong>Description:</strong> genu of CC <br>
+<strong>Acronym:</strong> GENU</p>
+<ul>
+<li>Jump to AC and place using sagittal view</li>
+<li>Optimize using coronal view as most anterior point of the corpus callosum on coronal slice.</li>
+<li>Midline vasculatures are prominent in this region. Adjusting contrast allows for differentiation between grey matter and vessels. Refine fiducial using axial view. </li>
+</ul>
+<p><a href="../img/nhp/19_GENU.png" target="_blank"><img alt="" src="../img/nhp/19_GENU.png" /></a></p>
+<h3 id="20-splenium-of-the-corpus-callosum-midline">20. Splenium of the corpus callosum [midline]<a class="headerlink" href="#20-splenium-of-the-corpus-callosum-midline" title="Permanent link">&para;</a></h3>
+<p><strong>Name:</strong> 20 <br>
+<strong>Description:</strong> splenium of CC <br>
+<strong>Acronym:</strong> SPLE</p>
+<ul>
+<li>Jump to AC and place using sagittal view.</li>
+<li>Proceed posterior and optimize point using coronal view as the in inferior-most point on coronal section. Refine the border using axial view.</li>
+</ul>
+<p><a href="../img/nhp/20_SPLE.png" target="_blank"><img alt="" src="../img/nhp/20_SPLE.png" /></a></p>
+<h3 id="21-right-anterolateral-temporal-horn">21. Right anterolateral temporal horn<a class="headerlink" href="#21-right-anterolateral-temporal-horn" title="Permanent link">&para;</a></h3>
+<p><strong>Name:</strong> 21 <br>
+<strong>Description:</strong> R AL temporal horn <br>
+<strong>Acronym:</strong> RALTH</p>
+<ul>
+<li>Jump to AC and using sagittal view locate the posterior border of AC.</li>
+<li>In the coronal view, this fiducial should be inferior and lateral to the amygdala.</li>
+<li>In the sagittal view, it is anterior to hippocampus separated by the CSF of the temporal horn of the lateral ventricle.</li>
+<li>In the axial view, it is the anterolateral most point of the temporal horn.</li>
+<li>Choose a more ventral/inferior point on the coronal view.</li>
+<li>Place at the boundary of CSF and white matter</li>
+</ul>
+<p><a href="../img/nhp/21_RALTH.png" target="_blank"><img alt="" src="../img/nhp/21_RALTH.png" /></a></p>
+<h3 id="22-left-anterolateral-temporal-horn">22. Left anterolateral temporal horn<a class="headerlink" href="#22-left-anterolateral-temporal-horn" title="Permanent link">&para;</a></h3>
+<p><strong>Name:</strong> 22 <br>
+<strong>Description:</strong> L AL temporal horn <br>
+<strong>Acronym:</strong> LALTH</p>
+<ul>
+<li>As in 21</li>
+</ul>
+<p><a href="../img/nhp/22_LALTH.png" target="_blank"><img alt="" src="../img/nhp/22_LALTH.png" /></a></p>
+<h3 id="23-right-superior-am-temporal-horn">23. Right superior AM temporal horn<a class="headerlink" href="#23-right-superior-am-temporal-horn" title="Permanent link">&para;</a></h3>
+<p><strong>Name:</strong> 23 <br>
+<strong>Description:</strong> R superior AM temporal horn <br>
+<strong>Acronym:</strong> RSAMTH</p>
+<ul>
+<li>Note: there are both superior and inferior anteromedial (AM) temporal horn fiducials.</li>
+<li>In the coronal view, the superior AM temporal horn is located superior to the head of the hippocampus at the level of the optic tract.</li>
+<li>In the axial view, it is situated in the uncus and bounded anteriorly by the amygdala and posteriorly by the hippocampus.</li>
+<li>Proceed lateral while monitoring the coronal view. Place fiducial at the superior hippocampal-amygdalar transition area (HATA). Verify in the axial view.</li>
+<li>
+<p>NOTE: there is also an inferior anteromedial temporal horn</p>
+</li>
+<li>
+<ul>
+<li>alias: Rhoton's uncal recess: "narrow medially projecting space between hippocampal head &amp; ventricular surface of amygdala located lateral to uncal apex"</li>
+</ul>
+</li>
+<li>Place at the boundary of CSF and brain</li>
+</ul>
+<p><a href="../img/nhp/23_RSAMTH.png" target="_blank"><img alt="" src="../img/nhp/23_RSAMTH.png" /></a></p>
+<h3 id="24-left-superior-am-temporal-horn">24. Left superior AM temporal horn<a class="headerlink" href="#24-left-superior-am-temporal-horn" title="Permanent link">&para;</a></h3>
+<p><strong>Name:</strong> 24 <br>
+<strong>Description:</strong> L superior AM temporal horn <br>
+<strong>Acronym:</strong> LSAMTH</p>
+<ul>
+<li>alias: Rhoton's left uncal recess</li>
+<li>As in 23</li>
+</ul>
+<p><a href="../img/nhp/24_LSAMTH.png" target="_blank"><img alt="" src="../img/nhp/24_LSAMTH.png" /></a></p>
+<h3 id="25-right-inferior-am-temporal-horn">25. Right inferior AM temporal horn<a class="headerlink" href="#25-right-inferior-am-temporal-horn" title="Permanent link">&para;</a></h3>
+<p><strong>Name:</strong> 25 <br>
+<strong>Description:</strong> R inferior AM temporal horn <br>
+<strong>Acronym:</strong> RIAMTH</p>
+<ul>
+<li>In the coronal view, the inferior AM temporal horn is located inferior to the amygdala.</li>
+<li>In the axial view, it is bounded anteriorly by the amygdala and posteriorly by the hippocampus.</li>
+<li>In the sagittal view, it is bounded posteriorly by the hippocampal head and amygdala. The ventricle should appear in the sagittal view as a small opening at this point.</li>
+<li>Verify that the fiducial is place at the junction of the ventricle-grey matter in the axial view. </li>
+</ul>
+<p><a href="../img/nhp/25_RIAMTH.png" target="_blank"><img alt="" src="../img/nhp/25_RIAMTH.png" /></a></p>
+<h3 id="26-left-inferior-am-temporal-horn">26. Left inferior AM temporal horn<a class="headerlink" href="#26-left-inferior-am-temporal-horn" title="Permanent link">&para;</a></h3>
+<p><strong>Name:</strong> 26 <br>
+<strong>Description:</strong> L inferior AM temporal horn <br>
+<strong>Acronym:</strong> LIAMTH</p>
+<ul>
+<li>Like in 25</li>
+<li>Jump to 22 (left AL temporal horn) and scroll the find the most medial showing of the CSF</li>
+</ul>
+<p><a href="../img/nhp/26_LIAMTH.png" target="_blank"><img alt="" src="../img/nhp/26_LIAMTH.png" /></a></p>
+<h3 id="27-right-indusium-griseum-origin">27. Right indusium griseum origin<a class="headerlink" href="#27-right-indusium-griseum-origin" title="Permanent link">&para;</a></h3>
+<p><strong>Name:</strong> 27 <br>
+<strong>Description:</strong> R indusium griseum origin <br>
+<strong>Acronym:</strong> RIGO</p>
+<ul>
+<li>The indusium griseum is also known as the "supracommissural" portion of the hippocampus running along the dorsal part of the corpus callosum. The objective with this fiducial is to identify its origin. This is where it diverges from the hippocampus proper.</li>
+<li>On the sagittal view, this is the point where gray matter separate from the hippocampus proper begins to "takeoff" below splenium and becomes pointed.</li>
+<li>On the coronal view, with high resolution images like the NMTv1.3 template, there is a sharp change in the gray matter thickness of the posterior hippocampus proper (thinner) and where it transitions to the indusium griseum (thicker). This sharp change is the location of the indusium griseum origin.</li>
+<li>Verify that the fiducial is at the junction of white and grey matter.</li>
+<li>Other pointers: The indusium griseum is bounded on the sagittal and coronal views by the posterior-inferior edge of the atrium of the lateral ventricle.</li>
+</ul>
+<p><a href="../img/nhp/27_RIGO.png" target="_blank"><img alt="" src="../img/nhp/27_RIGO.png" /></a></p>
+<h3 id="28-left-indusium-griseum-origin">28. Left indusium griseum origin<a class="headerlink" href="#28-left-indusium-griseum-origin" title="Permanent link">&para;</a></h3>
+<p><strong>Name:</strong> 28 <br>
+<strong>Description:</strong> L indusium griseum origin <br>
+<strong>Acronym:</strong> LIGO</p>
+<ul>
+<li>As in 27</li>
+</ul>
+<p><a href="../img/nhp/28_LIGO.png" target="_blank"><img alt="" src="../img/nhp/28_LIGO.png" /></a></p>
+<h3 id="29-right-ventral-occipital-horn">29. Right ventral occipital horn<a class="headerlink" href="#29-right-ventral-occipital-horn" title="Permanent link">&para;</a></h3>
+<p><strong>Name:</strong> 29 <br>
+<strong>Description:</strong> R ventral occipital horn <br>
+<strong>Acronym:</strong> RVOH</p>
+<ul>
+<li>Best defined in the coronal view at the ventral/inferior portion of the occipital horn (try to choose the last coronal slice in which this feature is visible to ensure point delimits the posterior most margin of the occipital horn possible)</li>
+<li>If it is hard to see on the coronal view then you can make the first placement using the axial view (make sure the view is on the right side of the brain).</li>
+<li>Optimize using other views</li>
+</ul>
+<p><a href="../img/nhp/29_RVOH.png" target="_blank"><img alt="" src="../img/nhp/29_RVOH.png" /></a></p>
+<h3 id="30-left-ventral-occipital-horn">30. Left ventral occipital horn<a class="headerlink" href="#30-left-ventral-occipital-horn" title="Permanent link">&para;</a></h3>
+<p><strong>Name:</strong> 30 <br>
+<strong>Description:</strong> L ventral occipital horn <br>
+<strong>Acronym:</strong> LVOH</p>
+<ul>
+<li>As in 29</li>
+</ul>
+<p><a href="../img/nhp/30_LVOH.png" target="_blank"><img alt="" src="../img/nhp/30_LVOH.png" /></a></p>
+<h3 id="31-right-olfactory-sulcal-fundus">31. Right olfactory sulcal fundus<a class="headerlink" href="#31-right-olfactory-sulcal-fundus" title="Permanent link">&para;</a></h3>
+<p><strong>Name:</strong> 31 <br>
+<strong>Description:</strong> R olfactory sulcal fundus <br>
+<strong>Acronym:</strong> ROSF</p>
+<ul>
+<li>This fiducial is close to the genu of the corpus collosum (<a class="magiclink magiclink-github magiclink-issue" href="https://github.com/squidfunk/mkdocs-material/issues/19" title="GitHub Issue: squidfunk/mkdocs-material#19">#19</a>). </li>
+<li>Scroll back and forth in the sagittal view until you find the most anterior aspect of genu on the right hemisphere. (Typically before genu becomes continuous with other white matter structures). Note: ensure you are on the appropriate hemisphere (in this case the right).</li>
+<li>In the coronal view, verify that the point is placed at the sulcal fundus (i.e. at the depth of sulcus and at the boundary of gray matter-white matter).</li>
+<li>Note: One helpful pointer is to consider the olfactory sulcal fundus relative to the anterior skull base. This feature is much easier to place in humans because the anterior skull base is flat, while in macaques the skull base in angled (in an anterosuperior to posterioinferior direction). With this adjustment in mind, place the fiducial at the posterior and superior aspect of the apex (in the sagittal view) then reoptimize in the other views as necessary.</li>
+</ul>
+<p><a href="../img/nhp/31_ROSF.png" target="_blank"><img alt="" src="../img/nhp/31_ROSF.png" /></a></p>
+<h3 id="32-left-olfactory-sulcal-fundus">32. Left olfactory sulcal fundus<a class="headerlink" href="#32-left-olfactory-sulcal-fundus" title="Permanent link">&para;</a></h3>
+<p><strong>Name:</strong> 32 <br>
+<strong>Description:</strong> L olfactory sulcal fundus <br>
+<strong>Acronym:</strong> LOSF</p>
+<ul>
+<li>As in 31</li>
+</ul>
+<p><a href="../img/nhp/32_LOSF.png" target="_blank"><img alt="" src="../img/nhp/32_LOSF.png" /></a></p>
+  
+    
+  
+
+              
+                
+
+
+              
+            </article>
+          </div>
+        </div>
+      </main>
+      
+        
+<footer class="md-footer">
+  
+    <div class="md-footer-nav">
+      <nav class="md-footer-nav__inner md-grid" aria-label="Footer">
+        
+          <a href="human_protocol.html" title="Human" class="md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+            <div class="md-footer-nav__button md-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+            </div>
+            <div class="md-footer-nav__title">
+              <div class="md-ellipsis">
+                <span class="md-footer-nav__direction">
+                  Previous
+                </span>
+                Human
+              </div>
+            </div>
+          </a>
+        
+        
+          <a href="../references.html" title="References" class="md-footer-nav__link md-footer-nav__link--next" rel="next">
+            <div class="md-footer-nav__title">
+              <div class="md-ellipsis">
+                <span class="md-footer-nav__direction">
+                  Next
+                </span>
+                References
+              </div>
+            </div>
+            <div class="md-footer-nav__button md-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
+    </div>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+          <div class="md-footer-copyright__highlight">
+            Copyright &copy; The AFIDS Authors
+          </div>
+        
+        Made with
+        <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+          Material for MkDocs
+        </a>
+      </div>
+      
+  <div class="md-footer-social">
+    
+      
+      
+        
+        
+      
+      <a href="https://github.com/afids" target="_blank" rel="noopener" title="github.com" class="md-footer-social__link">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg>
+      </a>
+    
+      
+      
+        
+        
+      
+      <a href="https://twitter.com/afids_project" target="_blank" rel="noopener" title="twitter.com" class="md-footer-social__link">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"/></svg>
+      </a>
+    
+  </div>
+
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    
+      <script src="../assets/javascripts/vendor.de50e36d.min.js"></script>
+      <script src="../assets/javascripts/bundle.38f5c9b5.min.js"></script><script id="__lang" type="application/json">{"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents"}</script>
+      
+      <script>
+        app = initialize({
+          base: "..",
+          features: [],
+          search: Object.assign({
+            worker: "../assets/javascripts/worker/search.9b3611bd.min.js"
+          }, typeof search !== "undefined" && search)
+        })
+      </script>
+      
+        <script src="https://unpkg.com/mermaid@8.4.4/dist/mermaid.min.js"></script>
+      
+    
+  </body>
+</html>
