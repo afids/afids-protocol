@@ -8,7 +8,7 @@ site_description:
 # Repository
 repo_name: AFIDs on Github
 repo_url: https://github.com/afids
-edit_uri: https://github.com/afids/afids-protocol/blob/master/content/docs
+edit_uri: https://github.com/afids/afids-protocol/blob/master/docs
 issues_url: https://github.com/afids/afids-protocol/issues/new/choose
 
 # Copyright
