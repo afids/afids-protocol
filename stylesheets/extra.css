@@ -50,3 +50,7 @@
 .md-main {
     max-width: 110rem;
 }
+
+.bstreeview .list-group-item {
+  font-size: 15px;
+}
