@@ -16,15 +16,18 @@ Download and use <a href="https://download.slicer.org/" target="_blank">3D Slice
 
 Download template files:
 
-<center>
-
-|       file       |    name   |
-|------------------|-----------|
-|<a href="https://drive.google.com/open?id=1v9sNG0D4-I_8ZAfxrej6_pbWlryBSKOF" target="_blank">2009bMNI.nii</a><img width=100/>|2009bMNI<img width=100/>|
-|<a href="https://drive.google.com/open?id=16nZlF9VtgLkANfajbzrJUGHrovgYoS3_" target="_blank">PD25.nii</a>     |PD25     |
-|<a href="https://drive.google.com/open?id=1Vvc_dqrFyWXpWsmU7J4nGu6MwwNsWPno" target="_blank">UHF.nii</a> |UHF |
-
-</center>
+<div id="tree"></div>
+<script>
+    $(document).ready(function() {
+      $.ajax({
+          url : "/../../assets/human_templates.json",
+          dataType: "text",
+          success : function (tree) {
+              $('#tree').bstreeview({ data: tree });
+          }
+      });
+});
+</script>
 
 ## Anatomical Direction Guide
 

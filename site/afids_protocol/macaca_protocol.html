@@ -21,6 +21,9 @@
       
     
     
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <link rel="stylesheet" href="../css/bstreeview.min.css">
+    
       <link rel="stylesheet" href="../assets/stylesheets/main.545621a7.min.css">
       
         <link rel="stylesheet" href="../assets/stylesheets/palette.36d1b78f.min.css">
@@ -31,7 +34,19 @@
         <meta name="theme-color" content="">
       
     
+
     
+    
+  <script
+    src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+    crossorigin="anonymous"></script>
+<!--  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script> -->
+<!--  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script> -->
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/7e31cfd31d.js" crossorigin="anonymous"></script>
+    <script src="../js/bstreeview.min.js"></script>
+
     
       
         <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
@@ -958,38 +973,20 @@
 <p>Download and use <a href="https://download.slicer.org/" target="_blank">3D Slicer 4.10.2</a> (for the time being <strong>DO NOT</strong> use version 4.11 or above)</p>
 <h3 id="image-templates">Image Templates<a class="headerlink" href="#image-templates" title="Permanent link">&para;</a></h3>
 <p>Download template files:</p>
-<p><center></p>
-<table>
-<thead>
-<tr>
-<th>file</th>
-<th>name</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><a href="https://drive.google.com/open?id=1xPdnV58G0Z29bEOtF08feUdor0OSIvIa" target="_blank">D99.nii.gz</a><img width=100/></td>
-<td>d99<img width=100/></td>
-</tr>
-<tr>
-<td><a href="https://drive.google.com/open?id=1CNNX3oGjoP8P8kkPg8Lq2oyFpRlx20L3" target="_blank">inia19.nii.gz</a></td>
-<td>inia19</td>
-</tr>
-<tr>
-<td><a href="https://drive.google.com/open?id=1ps1xoz3eTfzA28mIKPPcDBZ6ZEbZkH9i" target="_blank">macaqueMNI.nii.gz</a></td>
-<td>macaqueMNI</td>
-</tr>
-<tr>
-<td><a href="https://drive.google.com/open?id=1PMu_8sbMpjk9D6Duf9zt_2FL1NBql1qE" target="_blank">NMTv1.3.nii.gz</a></td>
-<td>nmtv1.3</td>
-</tr>
-<tr>
-<td><a href="https://drive.google.com/open?id=1gqmxoh2k13QTfMXn2wsgsqEXPutyFRQv" target="_blank">yerkes19.nii.gz</a></td>
-<td>yerkes19</td>
-</tr>
-</tbody>
-</table>
-<p></center></p>
+<div id="tree"></div>
+
+<script>
+    $(document).ready(function() {
+      $.ajax({
+          url : "/../../assets/macaca_templates.json",
+          dataType: "text",
+          success : function (tree) {
+              $('#tree').bstreeview({ data: tree });
+          }
+      });
+});
+</script>
+
 <h2 id="anatomical-direction-guide">Anatomical Direction Guide<a class="headerlink" href="#anatomical-direction-guide" title="Permanent link">&para;</a></h2>
 <p align="center"><img src="../img/nhp/anatomical_directions_nhp.png" alt="anatomical_directions"/></p>
 
