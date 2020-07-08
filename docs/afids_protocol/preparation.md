@@ -13,20 +13,18 @@ Download and use <a href="https://download.slicer.org/" target="_blank">3D Slice
 
 Download template files:
 
-<center>
-
-|  species	|       file       |    name   |
-|-----------|------------------|-----------|
-|human<img width=100/>	|<a href="https://drive.google.com/open?id=1v9sNG0D4-I_8ZAfxrej6_pbWlryBSKOF" target="_blank">2009bMNI.nii</a><img width=100/>|2009bMNI<img width=100/>
-|human	|<a href="https://drive.google.com/open?id=16nZlF9VtgLkANfajbzrJUGHrovgYoS3_" target="_blank">PD25.nii</a>     |PD25     |
-|human	|<a href="https://drive.google.com/open?id=1Vvc_dqrFyWXpWsmU7J4nGu6MwwNsWPno" target="_blank">UHF.nii</a> |UHF |
-|nhp	|<a href="https://drive.google.com/open?id=1xPdnV58G0Z29bEOtF08feUdor0OSIvIa" target="_blank">D99.nii.gz</a>        |d99        |
-|nhp	|<a href="https://drive.google.com/open?id=1CNNX3oGjoP8P8kkPg8Lq2oyFpRlx20L3" target="_blank">inia19.nii.gz</a>     |inia19     |
-|nhp	|<a href="https://drive.google.com/open?id=1ps1xoz3eTfzA28mIKPPcDBZ6ZEbZkH9i" target="_blank">macaqueMNI.nii.gz</a> |macaqueMNI |
-|nhp	|<a href="https://drive.google.com/open?id=1PMu_8sbMpjk9D6Duf9zt_2FL1NBql1qE" target="_blank">NMTv1.3.nii.gz</a>    |nmtv1.3    |
-|nhp	|<a href="https://drive.google.com/open?id=1gqmxoh2k13QTfMXn2wsgsqEXPutyFRQv" target="_blank">yerkes19.nii.gz</a>   |yerkes19   |
-
-</center>
+<div id="tree"></div>
+<script>
+    $(document).ready(function() {
+      $.ajax({
+          url : "/../../assets/all_templates.json",
+          dataType: "text",
+          success : function (tree) {
+              $('#tree').bstreeview({ data: tree });
+          }
+      });
+});
+</script>
 
 ## Naming Scheme for Fiducial Files
 
