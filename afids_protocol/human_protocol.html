@@ -973,30 +973,20 @@
 <p>Download and use <a href="https://download.slicer.org/" target="_blank">3D Slicer 4.10.2</a> (for the time being <strong>DO NOT</strong> use version 4.11 or above)</p>
 <h3 id="image-templates">Image Templates<a class="headerlink" href="#image-templates" title="Permanent link">&para;</a></h3>
 <p>Download template files:</p>
-<p><center></p>
-<table>
-<thead>
-<tr>
-<th>file</th>
-<th>name</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><a href="https://drive.google.com/open?id=1v9sNG0D4-I_8ZAfxrej6_pbWlryBSKOF" target="_blank">2009bMNI.nii</a><img width=100/></td>
-<td>2009bMNI<img width=100/></td>
-</tr>
-<tr>
-<td><a href="https://drive.google.com/open?id=16nZlF9VtgLkANfajbzrJUGHrovgYoS3_" target="_blank">PD25.nii</a></td>
-<td>PD25</td>
-</tr>
-<tr>
-<td><a href="https://drive.google.com/open?id=1Vvc_dqrFyWXpWsmU7J4nGu6MwwNsWPno" target="_blank">UHF.nii</a></td>
-<td>UHF</td>
-</tr>
-</tbody>
-</table>
-<p></center></p>
+<div id="tree"></div>
+
+<script>
+    $(document).ready(function() {
+      $.ajax({
+          url : "/../../assets/human_templates.json",
+          dataType: "text",
+          success : function (tree) {
+              $('#tree').bstreeview({ data: tree });
+          }
+      });
+});
+</script>
+
 <h2 id="anatomical-direction-guide">Anatomical Direction Guide<a class="headerlink" href="#anatomical-direction-guide" title="Permanent link">&para;</a></h2>
 <p align="center"><img src="../img/human/anatomical_directions_human.png" alt="anatomical_directions"/></p>
 
