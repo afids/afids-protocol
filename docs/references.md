@@ -38,8 +38,8 @@ template: overrides/main.html
 ## Other Resources
 
 * BrainHack Global 2018:
-  * <a href="https://github.com/jclauneuro/BHG18_afidprotocol" target="_blank">Training Workshop</a> details
-  * <a href="https://github.com/BrainhackWestern/BrainhackWestern.github.io/wiki/Tutorials" target="_blank">Tutorial</a> and associated [<a href="https://www.youtube.com/watch?v=huGtd19_uiM" target="_blank">video</a>]
+	* <a href="https://github.com/jclauneuro/BHG18_afidprotocol" target="_blank">Training Workshop</a> details
+	* <a href="https://github.com/BrainhackWestern/BrainhackWestern.github.io/wiki/Tutorials" target="_blank">Tutorial</a> and associated [<a href="https://www.youtube.com/watch?v=huGtd19_uiM" target="_blank">video</a>]
 
 * <a href="https://www.slicer.org" target="_blank">3D Slicer</a> (use version 4.10.2)
 
