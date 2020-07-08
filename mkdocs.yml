@@ -1,0 +1,113 @@
+
+# Project information
+site_name: AFIDS Project
+site_url: https://github.com/afids/afids-protocol
+site_author: 
+site_description: 
+
+# Repository
+repo_name: AFIDs on Github
+repo_url: https://github.com/afids
+edit_uri: https://github.com/afids/afids-protocol/blob/master/content/docs
+issues_url: https://github.com/afids/afids-protocol/issues/new/choose
+
+# Copyright
+copyright: Copyright &copy; The AFIDS Authors
+
+dev_addr: 127.0.0.1:7000
+use_directory_urls: false
+# Configuration
+theme:
+  name: material
+  custom_dir: material
+
+  # 404 page
+  static_templates:
+    - 404.html
+
+  # Don't include MkDocs' JavaScript
+  include_search_page: false
+  search_index_only: true
+
+  # Default values, taken from mkdocs_theme.yml
+  language: en
+  palette:
+    primary: black
+    accent: black
+  font:
+    text: Roboto
+    code: Roboto Mono
+  logo: img/logo.svg
+  favicon: img/favicon.png
+
+extra_css:
+  - stylesheets/extra.css
+
+# Plugins
+plugins:
+  - search
+
+extra_javascript:
+  - https://unpkg.com/mermaid@8.4.4/dist/mermaid.min.js
+
+# Customization
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/afids
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/afids_project
+    #- icon: fontawesome/brands/linkedin
+    #  link: 
+    #- icon: fontawesome/brands/instagram
+    #  link: 
+
+# Extensions
+markdown_extensions:
+  - markdown.extensions.admonition
+  - markdown.extensions.codehilite
+  - markdown.extensions.def_list
+  - markdown.extensions.footnotes
+  - markdown.extensions.meta
+  - markdown.extensions.toc:
+      permalink: true
+  - pymdownx.arithmatex
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  # - pymdownx.highlight:
+  #     linenums_style: pymdownx-inline
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.magiclink:
+      repo_url_shorthand: true
+      user: squidfunk
+      repo: mkdocs-material
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.snippets:
+      check_paths: true
+  - pymdownx.superfences
+  - pymdownx.tabbed
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+
+# Page tree
+nav:
+  - Home: index.md
+  - Working In 3D Slicer:
+      #- Installation: getting_started/installation_guide.md
+      - Linear Transforms: 3d_slicer/linear_transforms.md
+      - Saving Slicer Scenes: 3d_slicer/saving_slicer_scenes.md
+  - The Protocol: 
+      - Preparation: afids_protocol/preparation.md
+      - Human: afids_protocol/human_protocol.md
+      - Macaca: afids_protocol/macaca_protocol.md
+  - References: references.md
+
