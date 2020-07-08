@@ -20,7 +20,7 @@ Download template files:
 <script>
     $(document).ready(function() {
       $.ajax({
-          url : "../../assets/macaca_templates.json",
+          url : "../assets/macaca_templates.json",
           dataType: "text",
           success : function (tree) {
               $('#tree').bstreeview({ data: tree });
