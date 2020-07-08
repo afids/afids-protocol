@@ -3,7 +3,7 @@ title: Home
 template: overrides/main_noedit.html
 ---
 
-<center><img src="../img/afids_cover_for_github.png" alt="drawing" style="width:100%;"/></center>
+<center><img src="/img/afids_cover_for_github.png" alt="drawing" style="width:100%;"/></center>
 
 ---
 
