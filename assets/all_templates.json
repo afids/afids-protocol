@@ -98,5 +98,77 @@
         ]
       }
     ]
+  },
+  {
+    "text": "Pediatric",
+    "icon": "fa fa-folder",
+    "nodes": [
+      {
+        "text": "4.5-18.5 y.o",
+        "icon": "fa fa-folder",
+        "nodes": [
+          {
+            "text": "nihpd_asym_04.5-18.5_t1w.nii",
+            "icon": "fa fa-file",
+            "href": "https://drive.google.com/file/d/1bgfkqhoyaZKA8fObDshWHhg2V4viVLv5/view?usp=sharing"
+          }
+        ]
+      },
+      {
+        "text": "4.5-8.5 y.o",
+        "icon": "fa fa-folder",
+        "nodes": [
+          {
+            "text": "nihpd_asym_04.5-8.5_t1w.nii",
+            "icon": "fa fa-file",
+            "href": "https://drive.google.com/file/d/1sMWyC0yKyUt08R_397ZmoBSB9Fjh5a93/view?usp=sharing"
+          }
+        ]
+      },
+      {
+        "text": "7.0-11.0 y.o",
+        "icon": "fa fa-folder",
+        "nodes": [
+          {
+            "text": "nihpd_asym_07.0-11.0_t1w.nii",
+            "icon": "fa fa-file",
+            "href": "https://drive.google.com/file/d/1z-ObVAX02tFXMuJ52Gw3X6cDIc3kpk_M/view?usp=sharing"
+          }
+        ]
+      },
+      {
+        "text": "7.5-13.5 y.o",
+        "icon": "fa fa-folder",
+        "nodes": [
+          {
+            "text": "nihpd_asym_07.5-13.5_t1w.nii",
+            "icon": "fa fa-file",
+            "href": "https://drive.google.com/file/d/11MFwMcdi-36nSGtwcSuADWpPzxqdInSg/view?usp=sharing"
+          }
+        ]
+      },
+      {
+        "text": "10.0-14.0 y.o",
+        "icon": "fa fa-folder",
+        "nodes": [
+          {
+            "text": "nihpd_asym_10.0-14.0_t1w.nii",
+            "icon": "fa fa-file",
+            "href": "https://drive.google.com/file/d/1LgbdNFR_LVRN-mQTUPg3KAzEtWHliZM2/view?usp=sharing"
+          }
+        ]
+      },
+      {
+        "text": "13.0-18.5 y.o",
+        "icon": "fa fa-folder",
+        "nodes": [
+          {
+            "text": "nihpd_asym_13.0-18.5_t1w.nii",
+            "icon": "fa fa-file",
+            "href": "https://drive.google.com/file/d/1ucelII9i8-GVcJUkJipZUDMcP6OeE270/view?usp=sharing"
+          }
+        ]
+      }
+    ]
   }
 ]
