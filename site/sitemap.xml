@@ -1,35 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"><url>
-     <loc>https://greydongilmore.github.io/seek-website/index.html</loc>
-     <lastmod>2020-06-30</lastmod>
+     <loc>https://github.com/afids/afids-protocol/index.html</loc>
+     <lastmod>2020-07-08</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
-     <loc>https://greydongilmore.github.io/seek-website/getting_started/installation_guide.html</loc>
-     <lastmod>2020-06-30</lastmod>
+     <loc>https://github.com/afids/afids-protocol/3d_slicer/linear_transforms.html</loc>
+     <lastmod>2020-07-08</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
-     <loc>https://greydongilmore.github.io/seek-website/getting_started/pipeline_description.html</loc>
-     <lastmod>2020-06-30</lastmod>
+     <loc>https://github.com/afids/afids-protocol/3d_slicer/saving_slicer_scenes.html</loc>
+     <lastmod>2020-07-08</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
-     <loc>https://greydongilmore.github.io/seek-website/getting_started/localization_guide.html</loc>
-     <lastmod>2020-06-30</lastmod>
+     <loc>https://github.com/afids/afids-protocol/afids_protocol/preparation.html</loc>
+     <lastmod>2020-07-08</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
-     <loc>https://greydongilmore.github.io/seek-website/getting_started/data_description.html</loc>
-     <lastmod>2020-06-30</lastmod>
+     <loc>https://github.com/afids/afids-protocol/afids_protocol/human_protocol.html</loc>
+     <lastmod>2020-07-08</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
-     <loc>https://greydongilmore.github.io/seek-website/getting_started/rules.html</loc>
-     <lastmod>2020-06-30</lastmod>
+     <loc>https://github.com/afids/afids-protocol/afids_protocol/macaca_protocol.html</loc>
+     <lastmod>2020-07-08</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
-     <loc>https://greydongilmore.github.io/seek-website/contributing.html</loc>
-     <lastmod>2020-06-30</lastmod>
-     <changefreq>daily</changefreq>
-    </url><url>
-     <loc>https://greydongilmore.github.io/seek-website/license.html</loc>
-     <lastmod>2020-06-30</lastmod>
+     <loc>https://github.com/afids/afids-protocol/references.html</loc>
+     <lastmod>2020-07-08</lastmod>
      <changefreq>daily</changefreq>
     </url>
 </urlset>

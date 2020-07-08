@@ -233,7 +233,7 @@ Download template files:
 * Optimize using coronal view as most anterior point of the corpus callosum on coronal slice.
 * Midline vessels (anterior cerebral arteries) may be prominent in this region. Adjusting contrast allows for differentiation between grey matter and vessels. Refine using the axial view. 
 
-<a href="../img/human/19_GENU.png" target="_blank">![](../img/human/19_GENU.png)</a>
+<a href="../img/human/19_Genu.png" target="_blank">![](../img/human/19_Genu.png)</a>
 
 ### 20. Splenium of the corpus callosum [midline]
 

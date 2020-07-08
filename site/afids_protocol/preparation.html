@@ -1,0 +1,765 @@
+
+
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+        <link rel="canonical" href="https://github.com/afids/afids-protocol/afids_protocol/preparation.html">
+      
+      
+      <link rel="shortcut icon" href="../img/favicon.png">
+      <meta name="generator" content="mkdocs-1.1.2, mkdocs-material-5.3.3">
+    
+    
+      
+        <title>AFIDS Protocol</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.545621a7.min.css">
+      
+        <link rel="stylesheet" href="../assets/stylesheets/palette.36d1b78f.min.css">
+      
+      
+        
+        
+        <meta name="theme-color" content="">
+      
+    
+    
+    
+      
+        <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700%7CRoboto+Mono&display=fallback">
+        <style>body,input{font-family:"Roboto",-apple-system,BlinkMacSystemFont,Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"Roboto Mono",SFMono-Regular,Consolas,Menlo,monospace}</style>
+      
+    
+    
+    
+      <link rel="stylesheet" href="../stylesheets/extra.css">
+    
+    
+      
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="" data-md-color-primary="black" data-md-color-accent="black">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#preparation" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+      <header class="md-header" data-md-component="header">
+  <nav class="md-header-nav md-grid" aria-label="Header">
+    <a href="https://github.com/afids/afids-protocol" title="AFIDS Project" class="md-header-nav__button md-logo" aria-label="AFIDS Project">
+      
+  <img src="../img/logo.svg" alt="logo">
+
+    </a>
+    <label class="md-header-nav__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2z"/></svg>
+    </label>
+    <div class="md-header-nav__title" data-md-component="header-title">
+      
+        <div class="md-header-nav__ellipsis">
+          <span class="md-header-nav__topic md-ellipsis">
+            AFIDS Project
+          </span>
+          <span class="md-header-nav__topic md-ellipsis">
+            
+              AFIDS Protocol
+            
+          </span>
+        </div>
+      
+    </div>
+    
+      <label class="md-header-nav__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0116 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 019.5 16 6.5 6.5 0 013 9.5 6.5 6.5 0 019.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+      </label>
+      
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" data-md-state="active">
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0116 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 019.5 16 6.5 6.5 0 013 9.5 6.5 6.5 0 019.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+      </label>
+      <button type="reset" class="md-search__icon md-icon" aria-label="Clear" data-md-component="search-reset" tabindex="-1">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"/></svg>
+      </button>
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header-nav__source">
+        
+<a href="https://github.com/afids/" title="Go to repository" class="md-source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M439.55 236.05L244 40.45a28.87 28.87 0 00-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 01-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 000 40.81l195.61 195.6a28.86 28.86 0 0040.8 0l194.69-194.69a28.86 28.86 0 000-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    AFIDs on Github
+  </div>
+</a>
+      </div>
+    
+  </nav>
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+        
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              <div class="md-sidebar md-sidebar--primary" data-md-component="navigation">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    <nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="https://github.com/afids/afids-protocol" title="AFIDS Project" class="md-nav__button md-logo" aria-label="AFIDS Project">
+      
+  <img src="../img/logo.svg" alt="logo">
+
+    </a>
+    AFIDS Project
+  </label>
+  
+    <div class="md-nav__source">
+      
+<a href="https://github.com/afids/" title="Go to repository" class="md-source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M439.55 236.05L244 40.45a28.87 28.87 0 00-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 01-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 000 40.81l195.61 195.6a28.86 28.86 0 0040.8 0l194.69-194.69a28.86 28.86 0 000-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    AFIDs on Github
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../index.html" title="Home" class="md-nav__link">
+      Home
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-2" type="checkbox" id="nav-2">
+    
+    <label class="md-nav__link" for="nav-2">
+      Working In 3D Slicer
+      <span class="md-nav__icon md-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M8.59 16.58L13.17 12 8.59 7.41 10 6l6 6-6 6-1.41-1.42z"/></svg>
+      </span>
+    </label>
+    <nav class="md-nav" aria-label="Working In 3D Slicer" data-md-level="1">
+      <label class="md-nav__title" for="nav-2">
+        <span class="md-nav__icon md-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+        </span>
+        Working In 3D Slicer
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../3d_slicer/linear_transforms.html" title="Linear Transforms" class="md-nav__link">
+      Linear Transforms
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../3d_slicer/saving_slicer_scenes.html" title="Saving Slicer Scenes" class="md-nav__link">
+      Saving Slicer Scenes
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-3" type="checkbox" id="nav-3" checked>
+    
+    <label class="md-nav__link" for="nav-3">
+      The Protocol
+      <span class="md-nav__icon md-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M8.59 16.58L13.17 12 8.59 7.41 10 6l6 6-6 6-1.41-1.42z"/></svg>
+      </span>
+    </label>
+    <nav class="md-nav" aria-label="The Protocol" data-md-level="1">
+      <label class="md-nav__title" for="nav-3">
+        <span class="md-nav__icon md-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+        </span>
+        The Protocol
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+    
+    
+      <label class="md-nav__link md-nav__link--active" for="__toc">
+        Preparation
+        <span class="md-nav__icon md-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 9h14V7H3v2m0 4h14v-2H3v2m0 4h14v-2H3v2m16 0h2v-2h-2v2m0-10v2h2V7h-2m0 6h2v-2h-2v2z"/></svg>
+        </span>
+      </label>
+    
+    <a href="preparation.html" title="Preparation" class="md-nav__link md-nav__link--active">
+      Preparation
+    </a>
+    
+      
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+      </span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#preparation" class="md-nav__link">
+    Preparation
+  </a>
+  
+    <nav class="md-nav" aria-label="Preparation">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#3d-slicer" class="md-nav__link">
+    3D Slicer
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#image-templates" class="md-nav__link">
+    Image Templates
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#naming-scheme-for-fiducial-files" class="md-nav__link">
+    Naming Scheme for Fiducial Files
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#general-fiducial-placement-strategies" class="md-nav__link">
+    General Fiducial Placement Strategies
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#placement-of-fiducial-series" class="md-nav__link">
+    Placement of Fiducial Series
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#anatomical-direction-guide" class="md-nav__link">
+    Anatomical Direction Guide
+  </a>
+  
+    <nav class="md-nav" aria-label="Anatomical Direction Guide">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#human-anatomy" class="md-nav__link">
+    Human Anatomy
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#nhp-anatomy" class="md-nav__link">
+    NHP Anatomy
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+    
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="human_protocol.html" title="Human" class="md-nav__link">
+      Human
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="macaca_protocol.html" title="Macaca" class="md-nav__link">
+      Macaca
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../references.html" title="References" class="md-nav__link">
+      References
+    </a>
+  </li>
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+      </span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#preparation" class="md-nav__link">
+    Preparation
+  </a>
+  
+    <nav class="md-nav" aria-label="Preparation">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#3d-slicer" class="md-nav__link">
+    3D Slicer
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#image-templates" class="md-nav__link">
+    Image Templates
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#naming-scheme-for-fiducial-files" class="md-nav__link">
+    Naming Scheme for Fiducial Files
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#general-fiducial-placement-strategies" class="md-nav__link">
+    General Fiducial Placement Strategies
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#placement-of-fiducial-series" class="md-nav__link">
+    Placement of Fiducial Series
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#anatomical-direction-guide" class="md-nav__link">
+    Anatomical Direction Guide
+  </a>
+  
+    <nav class="md-nav" aria-label="Anatomical Direction Guide">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#human-anatomy" class="md-nav__link">
+    Human Anatomy
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#nhp-anatomy" class="md-nav__link">
+    NHP Anatomy
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content">
+            <article class="md-content__inner md-typeset">
+              
+  
+    <a href="https://github.com/afids/afids-protocol/blob/master/content/docs/afids_protocol/preparation.md" title="Edit this page" class="md-content__button md-icon" target="blank_" style="font-size: 14px;">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25z"/></svg> <p style="margin-top:2px;">Edit this page</p>
+    </a>
+    <a href="https://github.com/afids/afids-protocol/issues/new/choose" title="Open an issue" class="md-content__button md-icon" target="blank_" style="font-size: 14px;">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg> <p style="margin-top:2px;">Open and issue</p>
+    </a>
+  
+  
+    
+  
+  
+    <h1>Preparation</h1>
+  
+  <h2 id="preparation">Preparation<a class="headerlink" href="#preparation" title="Permanent link">&para;</a></h2>
+<h3 id="3d-slicer">3D Slicer<a class="headerlink" href="#3d-slicer" title="Permanent link">&para;</a></h3>
+<p>Download and use <a href="https://download.slicer.org/" target="_blank">3D Slicer 4.10.2</a> (for the time being <strong>DO NOT</strong> use version 4.11 or above)</p>
+<h3 id="image-templates">Image Templates<a class="headerlink" href="#image-templates" title="Permanent link">&para;</a></h3>
+<p>Download template files:</p>
+<p><center></p>
+<table>
+<thead>
+<tr>
+<th>species</th>
+<th>file</th>
+<th>name</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>human</td>
+<td><a href="https://drive.google.com/open?id=1v9sNG0D4-I_8ZAfxrej6_pbWlryBSKOF" target="_blank">2009bMNI.nii</a></td>
+<td>2009bMNI</td>
+</tr>
+<tr>
+<td>human</td>
+<td><a href="https://drive.google.com/open?id=16nZlF9VtgLkANfajbzrJUGHrovgYoS3_" target="_blank">PD25.nii</a></td>
+<td>PD25</td>
+</tr>
+<tr>
+<td>human</td>
+<td><a href="https://drive.google.com/open?id=1Vvc_dqrFyWXpWsmU7J4nGu6MwwNsWPno" target="_blank">UHF.nii</a></td>
+<td>UHF</td>
+</tr>
+<tr>
+<td>nhp</td>
+<td><a href="https://drive.google.com/open?id=1xPdnV58G0Z29bEOtF08feUdor0OSIvIa" target="_blank">D99.nii.gz</a></td>
+<td>d99</td>
+</tr>
+<tr>
+<td>nhp</td>
+<td><a href="https://drive.google.com/open?id=1CNNX3oGjoP8P8kkPg8Lq2oyFpRlx20L3" target="_blank">inia19.nii.gz</a></td>
+<td>inia19</td>
+</tr>
+<tr>
+<td>nhp</td>
+<td><a href="https://drive.google.com/open?id=1ps1xoz3eTfzA28mIKPPcDBZ6ZEbZkH9i" target="_blank">macaqueMNI.nii.gz</a></td>
+<td>macaqueMNI</td>
+</tr>
+<tr>
+<td>nhp</td>
+<td><a href="https://drive.google.com/open?id=1PMu_8sbMpjk9D6Duf9zt_2FL1NBql1qE" target="_blank">NMTv1.3.nii.gz</a></td>
+<td>nmtv1.3</td>
+</tr>
+<tr>
+<td>nhp</td>
+<td><a href="https://drive.google.com/open?id=1gqmxoh2k13QTfMXn2wsgsqEXPutyFRQv" target="_blank">yerkes19.nii.gz</a></td>
+<td>yerkes19</td>
+</tr>
+<tr>
+<td><img width=100/></td>
+<td><img width=200/></td>
+<td><img width=200/></td>
+</tr>
+</tbody>
+</table>
+<p></center></p>
+<h2 id="naming-scheme-for-fiducial-files">Naming Scheme for Fiducial Files<a class="headerlink" href="#naming-scheme-for-fiducial-files" title="Permanent link">&para;</a></h2>
+<ul>
+<li>
+<p>[VolumeID]_[Contrast]_[Rater]_[N] [e.g. macaqueMNI_T1_JL_01]</p>
+</li>
+<li>
+<p><strong>[VolumeID]</strong> = the identifier for the volume on which you are performing the fiducial placements (use the <strong>name</strong> given to the template in table above)</p>
+</li>
+<li><strong>[Contrast]</strong> = T1 (all templates are T1)</li>
+<li><strong>[Rater]</strong> = the unique identifier for the rater performing the fiducial placement; convention will be first initial and last name to prevent overlap</li>
+<li><strong>[N]</strong> = reference for fiducial placement session (helpful if performing placements more than once; starting with 1)</li>
+</ul>
+<h2 id="general-fiducial-placement-strategies">General Fiducial Placement Strategies<a class="headerlink" href="#general-fiducial-placement-strategies" title="Permanent link">&para;</a></h2>
+<p>Use the <strong>"Jump to Slice"</strong> feature to center your view on the fiducial of interest and ensure that the placed landmark appears accurate 
+on all three standard views (axial, sagittal, coronal). Once a fiducial is placed, <strong>dragging</strong> the fiducial can allow for more refined 
+placement. Holding down <strong>shift</strong> centers the view in all views on the cursor (use along with crosshair function). If a given fiducial 
+is classified as <strong>[midline]</strong>, jump to an existing midline fiducial (e.g. AC or PC) and start by placing the fiducial on the 
+<strong>sagittal</strong> view and refine placement using the other views. Try to place fiducials at the <strong>boundary/edge</strong> of the feature of 
+interest. For some of the fiducials, the instructions for placement will explicitly say to place the landmark using information mostly 
+from one view (e.g. axial view for olfactory sulcus). Be aware that changing the windowing of your images (and lighting in the room) may 
+affect your perception of where landmarks should be placed. When you're satisfied with the location of a fiducial, <strong>lock it in place</strong> 
+to prevent yourself from displacing it later. <strong>NOTE: there is no UNDO feature for fiducial placements.</strong></p>
+<h2 id="placement-of-fiducial-series">Placement of Fiducial Series<a class="headerlink" href="#placement-of-fiducial-series" title="Permanent link">&para;</a></h2>
+<p>Copy points from the <strong>ACPC</strong> markups list to the <strong>Fid32_[VolumeID]_[Contrast]_[Rater]_[N]</strong> markups list. Copy over AC and PC to your <strong>Fid32</strong> markups list by right clicking each fiducial, choosing "Copy fiducial to another list", and selecting <strong>Fid32_[VolumeID]_[Contrast]_[Rater]_[N]</strong>. Place the remaining <strong>30 fiducials</strong>, enter the number corresponding to the fiducial in the <strong>Name</strong> textbox and enter the description in the corresponding <strong>Description</strong> textbox. When placing the fiducials make sure you are on the <strong>Fid32_[VolumeID]_[Contrast]_[Rater]_[N]</strong> markup list.</p>
+<p>To help with monitoring the current location of the pointer, toggle on the <strong>Slice intersection</strong> under <strong>Toggle crosshair visibility</strong>.</p>
+<h2 id="anatomical-direction-guide">Anatomical Direction Guide<a class="headerlink" href="#anatomical-direction-guide" title="Permanent link">&para;</a></h2>
+<h3 id="human-anatomy">Human Anatomy<a class="headerlink" href="#human-anatomy" title="Permanent link">&para;</a></h3>
+<p align="center"><img src="../img/human/anatomical_directions_human.png" alt="anatomical_directions" width="100%"/></p>
+
+<h3 id="nhp-anatomy">NHP Anatomy<a class="headerlink" href="#nhp-anatomy" title="Permanent link">&para;</a></h3>
+<p align="center"><img src="../img/nhp/anatomical_directions_nhp.png" alt="anatomical_directions" width="100%"/></p>
+  
+    
+  
+
+              
+                
+
+
+              
+            </article>
+          </div>
+        </div>
+      </main>
+      
+        
+<footer class="md-footer">
+  
+    <div class="md-footer-nav">
+      <nav class="md-footer-nav__inner md-grid" aria-label="Footer">
+        
+          <a href="../3d_slicer/saving_slicer_scenes.html" title="Saving Slicer Scenes" class="md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+            <div class="md-footer-nav__button md-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+            </div>
+            <div class="md-footer-nav__title">
+              <div class="md-ellipsis">
+                <span class="md-footer-nav__direction">
+                  Previous
+                </span>
+                Saving Slicer Scenes
+              </div>
+            </div>
+          </a>
+        
+        
+          <a href="human_protocol.html" title="Human" class="md-footer-nav__link md-footer-nav__link--next" rel="next">
+            <div class="md-footer-nav__title">
+              <div class="md-ellipsis">
+                <span class="md-footer-nav__direction">
+                  Next
+                </span>
+                Human
+              </div>
+            </div>
+            <div class="md-footer-nav__button md-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
+    </div>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+          <div class="md-footer-copyright__highlight">
+            Copyright &copy; The AFIDS Authors
+          </div>
+        
+        Made with
+        <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+          Material for MkDocs
+        </a>
+      </div>
+      
+  <div class="md-footer-social">
+    
+      
+      
+        
+        
+      
+      <a href="https://github.com/afids" target="_blank" rel="noopener" title="github.com" class="md-footer-social__link">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg>
+      </a>
+    
+      
+      
+        
+        
+      
+      <a href="https://twitter.com/afids_project" target="_blank" rel="noopener" title="twitter.com" class="md-footer-social__link">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"/></svg>
+      </a>
+    
+  </div>
+
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    
+      <script src="../assets/javascripts/vendor.de50e36d.min.js"></script>
+      <script src="../assets/javascripts/bundle.38f5c9b5.min.js"></script><script id="__lang" type="application/json">{"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents"}</script>
+      
+      <script>
+        app = initialize({
+          base: "..",
+          features: [],
+          search: Object.assign({
+            worker: "../assets/javascripts/worker/search.9b3611bd.min.js"
+          }, typeof search !== "undefined" && search)
+        })
+      </script>
+      
+        <script src="https://unpkg.com/mermaid@8.4.4/dist/mermaid.min.js"></script>
+      
+    
+  </body>
+</html>
