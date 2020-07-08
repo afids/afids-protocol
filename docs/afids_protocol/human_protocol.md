@@ -4,7 +4,7 @@ template: overrides/main.html
 ---
 
 !!! warning
-	**Prior to placing the fiducials, ensure you have run the [Linear Transform](/docs/linear_transforms/).**
+	Prior to placing the fiducials, ensure you have run the [Linear Transform](../3d_slicer/linear_transforms.md)
 
 ## Preparation
 
