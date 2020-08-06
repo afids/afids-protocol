@@ -1,31 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"><url>
      <loc>https://github.com/afids/afids-protocol/index.html</loc>
-     <lastmod>2020-07-08</lastmod>
+     <lastmod>2020-08-06</lastmod>
+     <changefreq>daily</changefreq>
+    </url><url>
+     <loc>https://github.com/afids/afids-protocol/3d_slicer/ui_shortcuts.html</loc>
+     <lastmod>2020-08-06</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://github.com/afids/afids-protocol/3d_slicer/linear_transforms.html</loc>
-     <lastmod>2020-07-08</lastmod>
+     <lastmod>2020-08-06</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://github.com/afids/afids-protocol/3d_slicer/saving_slicer_scenes.html</loc>
-     <lastmod>2020-07-08</lastmod>
+     <lastmod>2020-08-06</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://github.com/afids/afids-protocol/afids_protocol/preparation.html</loc>
-     <lastmod>2020-07-08</lastmod>
+     <lastmod>2020-08-06</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://github.com/afids/afids-protocol/afids_protocol/human_protocol.html</loc>
-     <lastmod>2020-07-08</lastmod>
+     <lastmod>2020-08-06</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://github.com/afids/afids-protocol/afids_protocol/macaca_protocol.html</loc>
-     <lastmod>2020-07-08</lastmod>
+     <lastmod>2020-08-06</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://github.com/afids/afids-protocol/references.html</loc>
-     <lastmod>2020-07-08</lastmod>
+     <lastmod>2020-08-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
 </urlset>
