@@ -4,13 +4,13 @@
     "icon": "fa fa-folder",
     "nodes": [
       {
-        "text": "2009bMNI",
+        "text": "MNI2009cAsym",
         "icon": "fa fa-folder",
         "nodes": [
           {
-            "text": "2009bMNI.nii",
+            "text": "MNI2009cAsym.nii",
             "icon": "fa fa-file",
-            "href": "https://drive.google.com/open?id=1v9sNG0D4-I_8ZAfxrej6_pbWlryBSKOF"
+            "href": "https://drive.google.com/file/d/1HAdAqm1a6ghUbNXl9UNWt_m35md-8ZYU/view?usp=sharing"
           }
         ]
       },
@@ -21,7 +21,29 @@
           {
             "text": "PD25.nii",
             "icon": "fa fa-file",
-            "href": "https://drive.google.com/open?id=16nZlF9VtgLkANfajbzrJUGHrovgYoS3_"
+            "href": "https://drive.google.com/file/d/16nZlF9VtgLkANfajbzrJUGHrovgYoS3_/view?usp=sharing"
+          }
+        ]
+      },
+      {
+        "text": "Colin27",
+        "icon": "fa fa-folder",
+        "nodes": [
+          {
+            "text": "Colin27.nii",
+            "icon": "fa fa-file",
+            "href": "https://drive.google.com/file/d/1g0CltWbjFnC5I_fKIYCFJrF2ei2iprl2/view?usp=sharing"
+          }
+        ]
+      },
+      {
+        "text": "Agile12v2016",
+        "icon": "fa fa-folder",
+        "nodes": [
+          {
+            "text": "Agile12v2016.nii",
+            "icon": "fa fa-file",
+            "href": "https://drive.google.com/file/d/10BMYue1RPwln_HqXEa9qT9LCaZGaXJZq/view?usp=sharing"
           }
         ]
       },
@@ -32,7 +54,7 @@
           {
             "text": "UHF.nii",
             "icon": "fa fa-file",
-            "href": "https://drive.google.com/open?id=1Vvc_dqrFyWXpWsmU7J4nGu6MwwNsWPno"
+            "href": "https://drive.google.com/file/d/1Vvc_dqrFyWXpWsmU7J4nGu6MwwNsWPno/view?usp=sharing"
           }
         ]
       }
@@ -43,13 +65,13 @@
     "icon": "fa fa-folder",
     "nodes": [
       {
-        "text": "d99",
+        "text": "D99",
         "icon": "fa fa-folder",
         "nodes": [
           {
-            "text": "d99.nii",
+            "text": "D99.nii",
             "icon": "fa fa-file",
-            "href": "https://drive.google.com/open?id=1xPdnV58G0Z29bEOtF08feUdor0OSIvIa"
+            "href": "https://drive.google.com/file/d/1xPdnV58G0Z29bEOtF08feUdor0OSIvIa/view?usp=sharing"
           }
         ]
       },
@@ -60,7 +82,7 @@
           {
             "text": "inia19.nii",
             "icon": "fa fa-file",
-            "href": "https://drive.google.com/open?id=1CNNX3oGjoP8P8kkPg8Lq2oyFpRlx20L3"
+            "href": "https://drive.google.com/file/d/1CNNX3oGjoP8P8kkPg8Lq2oyFpRlx20L3/view?usp=sharing"
           }
         ]
       },
@@ -71,18 +93,18 @@
           {
             "text": "macaqueMNI.nii",
             "icon": "fa fa-file",
-            "href": "https://drive.google.com/open?id=1ps1xoz3eTfzA28mIKPPcDBZ6ZEbZkH9i"
+            "href": "https://drive.google.com/file/d/1ps1xoz3eTfzA28mIKPPcDBZ6ZEbZkH9i/view?usp=sharing"
           }
         ]
       },
       {
-        "text": "nmtv1.3",
+        "text": "NMTv1.3",
         "icon": "fa fa-folder",
         "nodes": [
           {
-            "text": "nmtv1.3.nii",
+            "text": "NMTv1.3.nii",
             "icon": "fa fa-file",
-            "href": "https://drive.google.com/open?id=1PMu_8sbMpjk9D6Duf9zt_2FL1NBql1qE"
+            "href": "https://drive.google.com/file/d/1PMu_8sbMpjk9D6Duf9zt_2FL1NBql1qE/view?usp=sharing"
           }
         ]
       },
@@ -93,7 +115,7 @@
           {
             "text": "yerkes19.nii",
             "icon": "fa fa-file",
-            "href": "https://drive.google.com/open?id=1gqmxoh2k13QTfMXn2wsgsqEXPutyFRQv"
+            "href": "https://drive.google.com/file/d/1gqmxoh2k13QTfMXn2wsgsqEXPutyFRQv/view?usp=sharing"
           }
         ]
       }
