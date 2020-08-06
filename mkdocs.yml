@@ -103,6 +103,7 @@ nav:
   - Home: index.md
   - Working In 3D Slicer:
       #- Installation: getting_started/installation_guide.md
+      - User Interface: 3d_slicer/ui_shortcuts.md
       - Linear Transforms: 3d_slicer/linear_transforms.md
       - Saving Slicer Scenes: 3d_slicer/saving_slicer_scenes.md
   - The Protocol: 
