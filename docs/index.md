@@ -15,6 +15,12 @@ Accurate spatial correspondence between template and subject images is a crucial
 
 ## Ready to get started?
 
+### The Protocol
 If you are ready to get started with AFIDs, navigate to the [AFIDs protocol](../afids_protocol/preparation.html#preparation) and choose which type of species you would like to work with.
 
-<br><br>
+### The AFIDs Validator
+
+Once you have completed the placement of AFIDs, you are able to validate your accuracy by uploading the `.fcsv` file to the <a href="http://afids-validator.herokuapp.com" target="_blank">AFIDs validator website</a>.
+
+<br>
+<br>

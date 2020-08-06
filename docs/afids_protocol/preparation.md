@@ -62,3 +62,10 @@ To help with monitoring the current location of the pointer, toggle on the **Sli
 ### NHP Anatomy
 
 <p align="center"><img src="../img/nhp/anatomical_directions_nhp.png" alt="anatomical_directions" width="100%"/></p>
+
+## AFIDs Validator
+
+Once you have completed the placement of AFIDs, you are able to validate your accuracy by uploading the `.fcsv` file to the <a href="http://afids-validator.herokuapp.com" target="_blank">AFIDs validator website</a>.
+
+<br>
+<br>

@@ -2,21 +2,19 @@
 
 An open framework for evaluating correspondence in brain images and teaching neuroanatomy using anatomical fiducial placement
 
-[![AFIDs](https://raw.githubusercontent.com/afids/afids-protocol/master/docs/img/afids_cover_for_github.png)](./docs/img/afids_cover_for_github.png)
+[![AFIDs](./docs/img/afids_cover_for_github.png)](./docs/img/afids_cover_for_github.png)
 
-Preprint: https://www.biorxiv.org/content/10.1101/460675v2
+**Documentation:** https://afidsproject.com
 
-Manuscript: http://dx.doi.org/10.1002/hbm.24693
-
-Documentation: https://afids.readthedocs.io/en/latest/
-
-Join our channel on  <a href="https://mattermost.brainhack.org/brainhack/channels/afids" target="_blank"><img src="http://www.mattermost.org/wp-content/uploads/2016/03/logoHorizontal.png" width=100px /></a>
+**Join our channel:**  <a href="https://mattermost.brainhack.org/brainhack/channels/afids" target="_blank"><img src="http://www.mattermost.org/wp-content/uploads/2016/03/logoHorizontal.png" width=100px /></a>
 
 ## Introduction
 
-* The <a href="/docs/afids_protocol/human_protocol.md" target="_blank">human AFIDs protocol</a> is an anatomical fiducial placement protocol that has been validated and used for teaching at a number of local and BHG-related events including https://github.com/BrainhackWestern/BrainhackWestern.github.io/wiki/Tutorials.
+* The AFIDs protocol is an anatomical fiducial placement protocol that has been validated and used for teaching at a number of local and global BrainHack related events.
+    * <a href="https://afidsproject.com/afids_protocol/human_protocol.html" target="_blank">Human AFIDs protocol</a>
+    * <a href="https://afidsproject.com/afids_protocol/macaca_protocol.html" target="_blank">Macaca AFIDs protocol</a>
+* The protocol and study framework leverage open resources/tools and has been developed with full transparency in mind so that others may freely use, adopt, and modify.
 * AFID placement is reproducible, not overtly manually intensive (20-40 minutes once trained), and more sensitive to local registration errors than standard voxel overlap measures.
-* This protocol and study framework leverages open resources and tools, and has been developed with full transparency in mind so that others may freely use, adopt, and modify.
 * 60+ raters trained to date.
 
 <center><img src="./docs/img/figure1_afids.png" alt="afids"/></center>
@@ -31,11 +29,11 @@ Join our channel on  <a href="https://mattermost.brainhack.org/brainhack/channel
 
 * Lau JC, Parrent AG, Demarco J, Gupta G, Park PJ, Ferko K, Khan AR, Peters TM. A framework for evaluating correspondence between brain images using anatomical fiducials. bioRxiv. 2018. [<a href="https://www.biorxiv.org/content/early/2018/11/03/460675" target="_blank">ref1</a>]
 
-## Conference Abstracts
+### Conference Abstracts
 
 * Lau JC, Parrent AG, Demarco J, Gupta G, Park PJ, Ferko K, Khan AR, Peters TM. AFIDs: an open framework for evaluating correspondence between magnetic resonance images of the human brain using fiducial placement. F1000 Research. Demo presented at INCF NeuroInformatics in Montreal, QC, Canada. 2018. [<a href="http://dx.doi.org/10.7490/f1000research.1115895.1" target="_blank">ref2</a>]
 
-## Open Datasets
+### Open Datasets
 
 * **Agile12v2016:** Lau JC, MacDougall KW, Arango MF, Peters TM, Parrent AG, Khan AR: Ultra-High Field Template-Assisted Target Selection for Deep Brain Stimulation Surgery. World Neurosurg 103:531–537, 2017. [<a href="https://www.nitrc.org/projects/deepbrain7t/" target="_blank">rdownload1</a>][<a href="http://dx.doi.org/10.1016/j.wneu.2017.04.043" target="_blank">ref3</a>]
 
@@ -45,21 +43,21 @@ Join our channel on  <a href="https://mattermost.brainhack.org/brainhack/channel
 
 * **OASIS1:** Marcus DS, Fotenos AF, Csernansky JG, Morris JC, Buckner RL: Open Access Series of Imaging Studies: Longitudinal MRI Data in Nondemented and Demented Older Adults. J Cogn Neurosci 22:2677–2684, 2010. [<a href="https://www.oasis-brains.org" target="_blank">download4</a>][<a href="http://dx.doi.org/10.1162/jocn.2009.21407" target="_blank">ref6</a>]
 
-## Software
+### Software
 
 * **3D Slicer:** Fedorov A, Beichel R, Kalpathy-Cramer J, Finet J, Fillion-Robin JC, Pujol S, et al: 3D Slicer as an image computing platform for the Quantitative Imaging Network. Magn Reson Imaging 30:1323–1341, 2012. [<a href="https://www.slicer.org/" target="_blank">download5</a>][<a href="http://dx.doi.org/10.1016/j.mri.2012.05.001" target="_blank">ref7</a>]
 
-## Historical References
+### Historical References
 
 * **Talairach1957:** Talairach J, David M, Tournoux P, Corredor H, Kvasina T: Atlas d’anatomie Stéréotaxique. Repérage Radiologique Indirect Des Noyaux Gris Centraux Des Régions Mésencephalosousoptique et Hypothalamique de l’homme. Paris, France: Masson & Cie, 1957
 
 * **Talairach1988:** Talairach J, Tournoux P: Co-Planar Stereotaxic Atlas of the Human Brain: 3-D Proportional System: An Approach to Cerebral Imaging. ed 1, Thieme, 1988.
 
-## Other Resources
+### Other Resources
 
 * BrainHack Global 2018:
-	* <a href="https://github.com/jclauneuro/BHG18_afidprotocol" target="_blank">Training Workshop</a> details
-	* <a href="https://github.com/BrainhackWestern/BrainhackWestern.github.io/wiki/Tutorials" target="_blank">Tutorial</a> and associated [<a href="https://www.youtube.com/watch?v=huGtd19_uiM" target="_blank">video</a>]
+    * <a href="https://github.com/jclauneuro/BHG18_afidprotocol" target="_blank">Training Workshop</a> details
+    * <a href="https://github.com/BrainhackWestern/BrainhackWestern.github.io/wiki/Tutorials" target="_blank">Tutorial</a> and associated [<a href="https://www.youtube.com/watch?v=huGtd19_uiM" target="_blank">video</a>]
 
 * <a href="https://www.slicer.org" target="_blank">3D Slicer</a> (use version 4.10.2)
 
