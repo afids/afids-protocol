@@ -1,5 +1,5 @@
 ---
-title: "Non-human Primate"
+title: "Macaca"
 template: overrides/main.html
 ---
 
