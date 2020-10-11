@@ -6,13 +6,7 @@ template: overrides/main.html
 !!! warning
 	Prior to placing the fiducials, ensure you have run the [Linear Transform](../3d_slicer/linear_transforms.md)
 
-## Preparation
-
-### 3D Slicer
-
-Download and use <a href="https://download.slicer.org/" target="_blank">3D Slicer 4.10.2</a> (for the time being **DO NOT** use version 4.11 or above)
-
-### Image Templates
+## Image Templates
 
 Download template files:
 
