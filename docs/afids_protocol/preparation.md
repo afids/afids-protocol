@@ -7,7 +7,11 @@ template: overrides/main.html
 
 ### 3D Slicer
 
-Download and use <a href="https://download.slicer.org/" target="_blank">3D Slicer 4.10.2</a> (for the time being **DO NOT** use version 4.11 or above)
+Download and use 3D Slicer 4.10.2 (for the time being **DO NOT** use version 4.11 or above):
+
+* **Windows (x64):** http://slicer.kitware.com/midas3/item/433684
+* **Mac OS X:** http://slicer.kitware.com/midas3/item/433773
+* **Linux:** http://slicer.kitware.com/midas3/item/435293
 
 ### Image Templates
 
