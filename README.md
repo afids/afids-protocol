@@ -4,7 +4,7 @@ An open framework for evaluating correspondence in brain images and teaching neu
 
 [![AFIDs](./docs/img/afids_cover_for_github.png)](./docs/img/afids_cover_for_github.png)
 
-**Documentation:** https://afidsproject.com
+**Documentation:** https://afids.github.io/afids-protocol/
 
 **Join our channel:**  <a href="https://mattermost.brainhack.org/brainhack/channels/afids" target="_blank"><img src="http://www.mattermost.org/wp-content/uploads/2016/03/logoHorizontal.png" width=100px /></a>
 
