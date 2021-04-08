@@ -11,8 +11,8 @@ An open framework for evaluating correspondence in brain images and teaching neu
 ## Introduction
 
 * The AFIDs protocol is an anatomical fiducial placement protocol that has been validated and used for teaching at a number of local and global BrainHack related events.
-    * <a href="https://afidsproject.com/afids_protocol/human_protocol.html" target="_blank">Human AFIDs protocol</a>
-    * <a href="https://afidsproject.com/afids_protocol/macaca_protocol.html" target="_blank">Macaca AFIDs protocol</a>
+    * <a href="https://afids.github.io/afids-protocol/afids_protocol/human_protocol.html" target="_blank">Human AFIDs protocol</a>
+    * <a href="https://afids.github.io/afids-protocol/afids_protocol/macaca_protocol.html" target="_blank">Macaca AFIDs protocol</a>
 * The protocol and study framework leverage open resources/tools and has been developed with full transparency in mind so that others may freely use, adopt, and modify.
 * AFID placement is reproducible, not overtly manually intensive (20-40 minutes once trained), and more sensitive to local registration errors than standard voxel overlap measures.
 * 60+ raters trained to date.
