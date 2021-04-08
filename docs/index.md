@@ -16,7 +16,7 @@ Accurate spatial correspondence between template and subject images is a crucial
 ## Ready to get started?
 
 ### The Protocol
-If you are ready to get started with AFIDs, navigate to the [AFIDs protocol](../afids_protocol/preparation.html#preparation) and choose which type of species you would like to work with.
+If you are ready to get started with AFIDs, navigate to the [AFIDs protocol](https://afids.github.io/afids-protocol/afids_protocol/preparation.html) and choose which type of species you would like to work with.
 
 ### The AFIDs Validator
 
