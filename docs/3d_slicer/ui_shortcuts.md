@@ -5,9 +5,7 @@ template: overrides/main.html
 
 !!! warning
 	Ensure you are using **3D Slicer 4.10.2:**<br>
-    **Windows (x64):** http://slicer.kitware.com/midas3/item/433684<br>
-    **Mac OS X:** http://slicer.kitware.com/midas3/item/433773<br>
-    **Linux:** http://slicer.kitware.com/midas3/item/435293<br>
+    **Windows (x64), Mac OS X, and Linux:** https://slicer-packages.kitware.com/#collection/5f4474d0e1d8c75dfc70547e/folder/60add36eae4540bf6a89be73
 
 ## Interface Overview
 
