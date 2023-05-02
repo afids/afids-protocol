@@ -61,6 +61,6 @@ An open framework for evaluating correspondence in brain images and teaching neu
 
 * <a href="https://www.slicer.org" target="_blank">3D Slicer</a> (use version 4.10.2)
 
-* <a href="http://afids-validator.herokuapp.com" target="_blank">AFIDs-validator</a>; started at <a href="https://github.com/BrainhackWestern/BrainhackWestern.github.io/wiki/projects#landmark-validator" target="_blank">BHG18-Western</a>; also see the associated OHBM2020 poster.
+* <a href="https://validator.afids.io/" target="_blank">AFIDs-validator</a>; started at <a href="https://github.com/BrainhackWestern/BrainhackWestern.github.io/wiki/projects#landmark-validator" target="_blank">BHG18-Western</a>; also see the associated OHBM2020 poster.
 
 * <a href="https://scicrunch.org/scicrunch/Resources/record/nlx_144509-1/SCR_016623/resolver" target="_blank">Scicrunch</a> (RRID:SCR_016623)
