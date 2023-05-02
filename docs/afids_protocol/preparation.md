@@ -67,7 +67,7 @@ To help with monitoring the current location of the pointer, toggle on the **Sli
 
 ## AFIDs Validator
 
-Once you have completed the placement of AFIDs, you are able to validate your accuracy by uploading the `.fcsv` file to the <a href="http://afids-validator.herokuapp.com" target="_blank">AFIDs validator website</a>.
+Once you have completed the placement of AFIDs, you are able to validate your accuracy by uploading the `.fcsv` file to the <a href="https://validator.afids.io/" target="_blank">AFIDs validator website</a>.
 
 <br>
 <br>
